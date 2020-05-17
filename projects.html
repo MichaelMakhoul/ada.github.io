@@ -1,0 +1,145 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+
+  <title>PROJECT DESIGN</title>
+  
+
+  <link rel="stylesheet" href="ada.css">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta name="author" content="Micheal Makhoul,0414141883,michaelmakhoul0@gmail.com">
+  
+
+  <script src="https://code.jquery.com/jquery-1.9.1.js"></script>
+	<script src="js/responsiveslides.min.js"></script>
+	<script>
+	$(function() {
+	$(".rslides_projects").responsiveSlides();
+	});
+	</script>
+  
+   <script>
+  $(function() {
+     $("a[href=#menu-expand]").click(function(e) {
+        $(".menu").toggleClass("menu-open");
+        e.preventDefault();
+  });
+}); 
+</script>
+
+</head>
+
+<body>
+<div id="wrapper">
+<div id="inner-wrapper">
+
+<header>
+	<a href="index.html"><img src="images/ADA_logo.png"	width="200"	height="150" alt="AUSTRALIAN DESIGN ARCHITECTS Logo"	title="AUSTRALIAN DESIGN ARCHITECTS Logo | a major architects design company all over Australia"></a>	
+</header>
+
+<div id="responsive-menu">
+<div class="menu-icon">
+<a href="#menu-expand"><img src="images/menu_icon.png" width="75" height="30" alt="Responsive Menu icon"/></a>
+</div>
+
+<nav class="menu">
+	<ul>
+		<li><a href="index.html">HOME</a></li>
+		<li><a href="portfolio.html">PORTFOLIO</a></li>
+		<li><a href="about.html">ABOUT US</a></li>
+		<li><a href="awards.html">AWARDS</a></li>
+		<li><a href="projects.html" id="current_page">PROJECT DESIGN</a></li>
+		<li><a href="contact.html">CONTACT US</a></li>
+	</ul>
+</nav>
+</div>
+
+<main>
+	<h2 id="project_main_h2">Australian Design Architects follows a simple process when designing your project:</h2>
+	
+	<section id="project_first_section">
+		<figure>
+		<img src="images/The-Kew-House-3-by-Vibe-Design-Group.png" width="500" height="365" alt="The Kew House">
+		<!-- photo from: https://www.impressiveinteriordesign.com/wp-content/uploads/2014/11/The-Kew-House-3-by-Vibe-Design-Group.jpg -->
+		<figcaption class="project_figcapt">
+		<h3>Schematic design</h3>
+		<p>We gain an understanding of your requirements and aspirations, followed by an assessment of the opportunities and constraints offered by the building site. A preliminary of regulations and restrictions is undertaken followed by a number of sketch design options to reach your preferred design.</p>
+		<p>These drawings have a level of detail suitable for obtaining cost estimates at the completion of this stage.</p>
+		</figcaption>
+		</figure>
+		
+		<figure>	
+		
+		<img src="images/slide_greensquare1.png" width="500" height="365" alt="Greensquarel">
+		<!-- photo from: https://infinitybycrowngroup.com.au/wp-content/uploads/2014/11/slide_greensquare1-e1429577177130.jpg -->
+		<figcaption class="project_figcapt">
+		<h3>Detailed Design Development</h3>
+		<p>Depending on the cost outcomes from the first stage, the preferred and approved design is developed into the final design for Development Application (DA) submission to Council. Pre-application meetings are organised with Council and adjoining neighbours to facilitate the planning process and assist in obtaining approval.</p>
+		</figcaption>
+		</figure>
+	</section>
+	
+	<section id="image-slideshow_project">
+		<figure>
+			<ul class="rslides_projects">
+				<li><img src="images/john-curtin-ANU-umow-lai.png" alt="GLOSSARY OF MUSICAL TERMS" width="900" height="525"></li>
+				<!-- photo by: https://sites.utexas.edu/studyabroad/files/2016/03/john-curtin-ANU-umow-lai.jpg -->
+				<li><img src="images/Law-School-map-size-1.png" alt="Sydney Low School" width="900" height="525"></li>
+				<!-- photo by: https://fjmtstudio.com/wp-content/uploads/2016/12/Law-School-map-size-1.jpg -->
+				<li><img src="images/townhouse-Sydney.png" alt="Townhouse in Sydney" width="900" height="525"></li>
+				<!-- photo by: http://townhousecenter.files.wordpress.com/2011/06/082106-townhouse.jpg -->
+				<li><img src="images/Integrated-Solutions-1.png" alt="Building in Australia" width="900" height="525"></li>
+				<!-- photo by: https://www.leading-edge-automation.com/wp-content/uploads/2017/03/Integrated-Solutions-1.jpg -->
+				<li><img src="images/Entrance-Underground-Parking-Townhouses.png" alt="Townshouse with underground parking in Australia" width="900" height="525"></li>
+				<!-- photo by: http://www.freshpalace.com/wp-content/uploads/2014/07/Entrance-Underground-Parking-Townhouses-in-Brighton-Australia.jpg -->
+			</ul>
+		</figure>
+	</section>
+	
+	<section id="project_second_section">
+		<figure>
+		<img src="images/Best-Houses.png" width="500" height="285" alt="House in Sydney">
+		<!-- https://www.architecturalservices.com.au/wp-content/uploads/2018/07/Best-Houses-1024x576.jpg -->
+		
+		<figcaption class="project_figcapt">
+		<h3>Construction Documentation</h3>
+		<p>The DA is developed into detailed drawings, specifications and schedules to ensure the design vision is not lost during construction. The work is also co-ordinated and integrated with the drawings suitable for the Construction Certificate with Council and tendering for builders.</p>
+		</figcaption>
+		</figure>
+		<figure>
+		<figcaption class="project_figcapt">
+		<img src="images/University-Newcastle.png" width="500" height="285" alt="University in Newcastle">
+		<!-- photo from: https://www.buildaustralia.com.au/wp-content/uploads/2019/02/University-Newcastle.jpg -->
+		<h3>Contract Administration</h3>
+		<p>Following the tender process and negotiations with the preferred builder, the construction documentation is developed into Contract documents between you and the builder. The administration of the contract between you and the builder is provided to ensure design quality is maintained throughout the construction process. This stage includes regular site visits, site meetings and certification processes.</p>
+		</figcaption>
+		</figure>
+	</section>
+	
+</main>
+
+<footer>
+	<div>
+	<ul>	
+		<li>&copy; Australian Design Architects copyrights_2019</li>
+		<li class="hor"><a href="legals.html">LEGALS</a></li>
+		<li class="hor"><a href="contact.html">CONTACT US</a></li>
+	</ul>
+	</div>
+	
+	<div id="footer-images">
+		<a href="https://www.facebook.com/ada"><img src="images/facebook.png" alt="Facebook Image" width="45" height="45"></a>
+		<a href="https://www.instagram.com/ada"><img src="images/instagram.png" alt="Instagram Image" width="45" height="45"></a>
+	</div>
+</footer>
+
+</div> 
+</div> 
+
+</body>
+</html> 

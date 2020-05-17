@@ -1,0 +1,103 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+
+  <title>CONTACT US</title>
+  
+
+  <link rel="stylesheet" href="ada.css">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta name="author" content="Micheal Makhoul,0414141883,michaelmakhoul0@gmail.com">
+  
+  <script src="js/jquery-1.9.1.min.js"></script>
+
+   <script>
+  $(function() {
+     $("a[href=#menu-expand]").click(function(e) {
+        $(".menu").toggleClass("menu-open");
+        e.preventDefault();
+  });
+}); 
+</script>
+
+</head>
+
+<body>
+<div id="wrapper">
+<div id="inner-wrapper">
+
+<header>
+	<a href="index.html"><img src="images/ADA_logo.png"	width="200"	height="150" alt="AUSTRALIAN DESIGN ARCHITECTS Logo"	title="AUSTRALIAN DESIGN ARCHITECTS Logo | a major architects design company all over Australia"></a>	
+</header>
+
+<div id="responsive-menu">
+<div class="menu-icon">
+<a href="#menu-expand"><img src="images/menu_icon.png" width="75" height="30" alt="Responsive Menu icon"/></a>
+</div>
+
+<nav class="menu">
+	<ul>
+		<li><a href="index.html">HOME</a></li>
+		<li><a href="portfolio.html">PORTFOLIO</a></li>
+		<li><a href="about.html">ABOUT US</a></li>
+		<li><a href="awards.html">AWARDS</a></li>
+		<li><a href="projects.html">PROJECT DESIGN</a></li>
+		<li><a href="contact.html" id="current_page">CONTACT US</a></li>
+	</ul>
+</nav>
+</div>
+<main id="contact_main">
+	<section id="map">
+		<h2>Visit our office: 9 York Street, Sydney.</h2>
+
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3312.964630959481!2d151.20315901560858!3d-33.864802380657295!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b12ae4124333c4b%3A0xacc0faaf9219d35c!2s9+York+St%2C+Sydney+NSW+2000!5e0!3m2!1sen!2sau!4v1554686905301!5m2!1sen!2sau" style="border:0" allowfullscreen id="map_iframe"></iframe>
+	
+	</section>
+	
+	<section id="contact_form">
+		<form action="contact.php" method="post">
+				
+				<h2 id="form_h2">Tell us about your DREAM PROJECT :</h2>
+				<label for="name" class="contact-lable">Name:</label>
+				<input type="text" id="name" name="name" maxlength="30" placeholder="Type your full name..." class="contact-input">
+			
+				<label for="email" class="contact-lable">Email:</label>
+				<input type="email" id="email" name="email" maxlength="40" placeholder="Type your email address..." class="contact-input">
+			
+				<label for="address" class="contact-lable">Address:</label>
+				<input type="text" id="address" name="address" maxlength="50" placeholder="Type your home address..." class="contact-input"> 
+			
+				<label for="message" id="commet" class="contact-lable">Leave a message about your requierd project:</label>
+				<textarea id="message" name="message" maxlength="1500" placeholder="Type your message here..." class="contact-input"></textarea>
+			
+				<input type="submit" name="submit" value="submit">
+						
+		</form>
+	</section>	
+</main>
+
+<footer>
+	<div>
+	<ul>	
+		<li>&copy; Australian Design Architects copyrights_2019</li>
+		<li class="hor"><a href="legals.html">LEGALS</a></li>
+		<li class="hor"><a href="contact.html">CONTACT US</a></li>
+	</ul>
+	</div>
+	
+	<div id="footer-images">
+		<a href="https://www.facebook.com/ada"><img src="images/facebook.png" alt="Facebook Image" width="45" height="45"></a>
+		<a href="https://www.instagram.com/ada"><img src="images/instagram.png" alt="Instagram Image" width="45" height="45"></a>
+	</div>
+	
+</footer>
+</div> 
+</div> 
+
+</body>
+</html> 
